@@ -1,7 +1,7 @@
 .Menu {
     display: flex;
     flex-basis: 250px;
-    background-color: #14273e;
+    background-color: #556b2f;
 }
 
 .Menu nav {
@@ -22,10 +22,15 @@
     padding: 10px;
     margin-bottom: 10px;
     text-decoration: none;
-    color: #a8dadc;
+    color: #8fbc8f;
     font-size: 1.5rem;
 }
 
 .Menu li a:hover {
-    background-color: #386480;
+    background-color: #808000;
+}
+
+.App-logo {
+    color: #FFFFFF;
+    width: 40vmin;
 }

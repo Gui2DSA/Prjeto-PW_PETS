@@ -2,7 +2,32 @@
     display: flex;
     flex: 1;
     justify-content: center;
-    background-color: black;
+    background-color: #292929;
     color: white;
     padding: 30px;
 }
+
+.titulo {
+    background-color: lightgrey;
+    border-bottom: 5px solid grey;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #556b2f;
+    text-align: center;
+}
+
+.titulo h1, h2 {
+    margin: 0;
+}
+
+.conteudo {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+}
+

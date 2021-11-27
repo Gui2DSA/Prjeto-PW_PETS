@@ -1,26 +1,40 @@
 import './Menu.css'
 import React from "react"
 import { Link } from 'react-router-dom'
+import { FaCat } from 'react-icons/fa'
+import { FaDog } from 'react-icons/fa'
+import { FaFish } from 'react-icons/fa'
+import { FaKiwiBird } from 'react-icons/fa'
 
+ 
 const Menu = props => (
     <aside className="Menu">
         <nav>
             <ul>
                 <li> 
-                    <Link to="/">Home</Link>
+                    <Link to="/">Sobre nós</Link>
                 </li>
                 <li> 
-                    <Link to="/conteudo01/123">Conteúdo 01</Link>
+                    < font size="7"><FaCat className="App-logo" /></font>
+                </li> 
+                <li> 
+                    <Link to="/adotar/123">Adotar</Link>
                 </li>
                 <li> 
-                    <Link to="/conteudo02">Conteúdo 02</Link>
-                </li>                                
+                    < font size="7"><FaDog className="App-logo" /></font>
+                </li>  
                 <li> 
-                    <Link to="/conteudo03">Conteúdo 03</Link>
-                </li>
+                    <Link to="/doar">Doar</Link>
+                </li>                          
                 <li> 
-                    <Link to="/conteudo04">Conteúdo 04</Link>
-                </li>                                
+                    < font size="7"><FaFish className="App-logo" /></font>
+                </li>      
+                <li> 
+                    <Link to="/contato">Contato</Link>
+                </li> 
+                <li> 
+                    < font size="7"><FaKiwiBird className="App-logo" /></font>
+                </li>            
             </ul>
         </nav>
     </aside>
