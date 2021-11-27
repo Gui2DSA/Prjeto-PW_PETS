@@ -1,2 +1,5 @@
-# react-hooks
-Introdução ao UseState, UseEffect e UseContext. Ciclo de vida de componentes. Context API.
+Site sobre adoção e doação de animais 
+
+Essa aplicação web apresentará soluçoes e respostas para dúvidas que muitas pessoas tem sobre adoção e doação de animais domésticos, 
+como a quem recorrer, como cuidar dos animais em situações de falta de recursos, entre outras soluções, além de fornecer o 
+contato dos responsáveis e proficionais sobre o assunto no próprio site
