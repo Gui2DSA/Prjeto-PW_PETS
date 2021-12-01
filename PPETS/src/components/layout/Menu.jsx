@@ -5,12 +5,16 @@ import { FaCat } from 'react-icons/fa'
 import { FaDog } from 'react-icons/fa'
 import { FaFish } from 'react-icons/fa'
 import { FaKiwiBird } from 'react-icons/fa'
+import { FaHorse } from 'react-icons/fa'
 
  
 const Menu = props => (
     <aside className="Menu">
         <nav>
             <ul>
+                <li> 
+                    < font size="7"><FaHorse className="App-logo" /></font>
+                </li>
                 <li> 
                     <Link to="/">Sobre nós</Link>
                 </li>
